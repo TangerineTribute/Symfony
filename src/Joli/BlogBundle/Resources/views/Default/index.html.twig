@@ -1,0 +1,9 @@
+<ul>
+	{% if posts is defined %}
+	    {% for post in posts %}
+	        <li>{{ post.title }}<br>{{ post.content }}</li>
+	    {% endfor %}
+	{% else %}
+		{{ error }}
+	{% endif %}
+</ul>

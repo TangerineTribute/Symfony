@@ -1,0 +1,12 @@
+joli_blog_homepage:
+ path: /hello/{name}
+ defaults: { _controller: JoliBlogBundle:Default:index }
+
+
+joli_blog_listing:
+ path:    /home/
+ defaults: { _controller: JoliBlogBundle:Default:home }
+
+
+
+

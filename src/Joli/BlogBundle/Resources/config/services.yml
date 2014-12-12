@@ -1,0 +1,7 @@
+parameters:
+    home_service.class: Joli\BlogBundle\Services\HomeService
+
+services:
+    home_service:
+        class: %home_service.class%
+        arguments: [@doctrine.orm.entity_manager]

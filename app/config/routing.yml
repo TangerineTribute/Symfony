@@ -1,0 +1,4 @@
+joli_blog:
+    resource: "@JoliBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
